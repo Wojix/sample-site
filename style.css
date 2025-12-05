@@ -1,0 +1,48 @@
+body {
+  font-family: "poppins", sans-serif;
+    font-weight: 100;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+.square {
+    font-family: "poppins", sans-serif;
+    font-weight: 100;
+    font-size: xx-large;
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #151515;
+    z-index: 99;
+}
+body::before {
+    content: "";
+    display: block;
+    height: 50px;
+}
+.tools {
+    width: 95%;
+    height: 2000px;
+    z-index: 100;
+    background-color: #e3e3e3;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin: 0 auto;
+}
+.text1 {
+    text-align: center;
+}
+.tool1 {
+    width: 300px;
+    height: 100px;
+    border-radius: 15px;
+    background-color: #919191;
+
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
